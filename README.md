@@ -1,11 +1,11 @@
-# Ciclo-Ideal-MCI
+# Ciclo-Ideal-MCI:
 <div align="center">
   <img width="150" height="150" alt="AutoSolo3_circle" src="https://github.com/user-attachments/assets/38627ca5-195e-4675-b25b-05d910e9b540" />
 </div>
 # 🔧 Ciclo Ideal de Motor de Combustión Interna – Python Notebook
 
 **Archivo fuente:** [`CicloIdeal.ipynb`](https://colab.research.google.com/drive/1joduDgb9NQuNTUs34p9TW44qeP2Fuxaj)  
-**Generado automáticamente por Google Colab**  
+ 
 **Autor:** Gerhard Raith  
 **Lenguaje:** Python 3.x  
 **Entorno sugerido:** Google Colab o Jupyter Notebook
@@ -25,7 +25,7 @@ Incluye visualizaciones técnicas de presión vs volumen y presión vs ángulo d
 
 ---
 
-## ⚙️ Requisitos
+## ⚙️ Requisitos:
 
 ```bash
 pip install numpy matplotlib
@@ -62,7 +62,7 @@ pip install numpy matplotlib
 
 ---
 
-## 📈 Resultados esperados
+## 📈 Resultados esperados:
 
 - Gráficos P–V y P–α con curvas adiabáticas e isocóricas
 - Identificación del punto de máxima presión (PMS)
@@ -70,7 +70,28 @@ pip install numpy matplotlib
 
 ---
 
-## 🌐 Versión en alemán
+## 📊 Visualizaciones:
+
+### Figura 1: Diagrama ideal P-V ciclo Otto 
+- Adiabáticas - Isocoras.
+![Diagrama P-V cilo Ideal Otto](Figuras/DiagramaP-V_CicloOttoIdeal.png)
+
+### Figura 2: Diagrama P-V (abierto) P - ángulo cigüeñal
+- Diagrama P-V abierto
+- P - ángulo cigüeñal (PMS = 0º)
+![Diagramas P-V abierto y P-ángulo](Figuras/DiagramasP-V&P-AnguloCigueñal.png)
+
+### **Figura 3**: Ciclo ideal 4 T (abierto s/combustión) P-alfa
+- Ciclo 4 T P-alfa sin combustión, abierto
+![Diagrama P-alfa abierto sin combustión](Figuras/CicloIdeal4T.png)
+
+### **Figura 4**: Ciclo ideal 4T (abierto c/combustión) P-alfa
+- Ciclo 4 T P-alfa con combustión, abierto
+![Diagrama P-alfa abierto con combustión](Figuras/CicloIdeal4T-CombustionIdeal.png)
+
+---
+
+## 🌐 Versión en alemán:
 
 ### 🔧 Idealer Verbrennungsmotor-Zyklus – Python Notebook
 
@@ -97,7 +118,7 @@ Dieses Notebook simuliert den thermodynamischen Verlauf eines idealisierten Vier
 
 ---
 
-## 📝 Licencia
+## 📝 Licencia:
 
 Este proyecto se distribuye bajo licencia institucional para fines educativos y de simulación técnica.  
 Para uso público, incluir atribución a Gerhard Raith y enlace al notebook original.
